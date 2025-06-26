@@ -1,9 +1,6 @@
-# Scarcity_management_YOLO
-Scarcity Management YOLO is an AI system using YOLO for real-time object detection and LSTM for forecasting product shortages. It monitors current stock levels and predicts future scarcity using computer vision and time-series analysis.
-
 # Scarcity Management YOLO 🧠📉📦
 
-A real-time object detection and prediction system for managing inventory scarcity using YOLOv5 and LSTM. Built with Django (admin/backend) and Flask (ML API).
+Scarcity Management YOLO is an AI system using YOLO for real-time object detection (water leaks) and LSTM for forecasting water shortages. It monitors current water levels and predicts future scarcity using computer vision and time-series analysis..
 
 ---
 
@@ -40,11 +37,15 @@ cd Scarcity_Management_YOLO
 ```
 
 2. Set up a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 3. Run Django backend
+```bash
 cd backend
 python manage.py migrate
 python manage.py runserver
+```
 
